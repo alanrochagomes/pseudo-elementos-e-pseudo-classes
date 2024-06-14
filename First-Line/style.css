@@ -1,0 +1,13 @@
+body {
+  padding: 10px;
+}
+
+code {
+  background-color: lightgrey;
+}
+
+h1::first-letter {
+  color: red;
+  background-color: lightblue;
+  border: 1px solid black;
+}
