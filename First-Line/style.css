@@ -2,4 +2,7 @@ body {
   padding: 10px;
 }
 
-
+p::first-line {
+  color: blue;
+  background-color: lightblue;
+}
