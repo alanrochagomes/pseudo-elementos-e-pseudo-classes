@@ -1,0 +1,17 @@
+body {
+  padding: 10px;
+}
+
+code {
+  background-color: lightgrey;
+}
+
+summary::marker {
+  content: "➜";
+  color:red;
+}
+
+li::marker {
+  color: blueviolet;
+  content:"☼";
+}
