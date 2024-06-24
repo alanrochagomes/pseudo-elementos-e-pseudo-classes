@@ -1,0 +1,17 @@
+body {
+  padding: 10px;
+}
+
+code {
+  background-color: lightgrey;
+}
+
+::selection {
+  background-color: palevioletred;
+  color: white;
+}
+
+.exemplo::selection {
+  background-color: aquamarine;
+  color: blue;
+}
