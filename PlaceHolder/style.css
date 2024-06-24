@@ -1,0 +1,15 @@
+body {
+  padding: 10px;
+}
+
+code {
+  background-color: lightgrey;
+}
+
+input::placeholder {
+  color: lightcoral;
+}
+
+input {
+  color: red;
+}
