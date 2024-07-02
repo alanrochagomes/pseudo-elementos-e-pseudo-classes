@@ -1,0 +1,13 @@
+body {
+  padding: 10px;
+}
+
+/*button:disabled {
+  background-color: black;
+  color: yellow;
+}*/
+
+button:enabled {
+  background-color: palevioletred;
+  color: white;
+}
