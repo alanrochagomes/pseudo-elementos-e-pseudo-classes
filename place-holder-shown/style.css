@@ -1,0 +1,11 @@
+body {
+  padding: 10px;
+}
+
+input:placeholder-shown {
+  border-color: royalblue;
+}
+
+input::placeholder {
+  color: white;
+}
