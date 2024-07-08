@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pseudo-Classes</title>
+  </head>
+  <body>
+    <h1>Pseudo-classes</h1>
+
+    <div>
+      <input name="task-01" type="checkbox" />
+      <label for="task-01">:invalid</label>
+    </div>
+
+    <div>
+      <input name="task-02" type="checkbox" />
+      <label for="task-02">:valid</label>
+    </div>
+
+    <div>
+      <input name="task-03" type="checkbox" />
+      <label for="task-03">:in-range</label>
+    </div>
+
+    <div>
+      <input name="task-04" type="checkbox" />
+      <label for="task-04">:out-of-range</label>
+    </div>
+
+    <hr />
+
+    <form>
+      <h3>Faça sua compra:</h3>
+      <label for="email" required>E-mail:</label>
+      <input type="email" name="email" />
+      <span class="error">E-mail inválido.</span>
+      <label for="codigo-produto">Código Produto:</label>
+      <input name="codigo-produto" type="number" min="1000" />
+
+      <span class="error">Código Produto inválido.</span>
+      <label for="cupom">Cupom de Desconto:</label>
+      <input
+        type="cupom"
+        type="text"
+        pattern="[a-z]+"
+        placeholder="Apenas letras minúsculas"
+      />
+      <span class="error">Cupom de Desconto inválido.</span>
+
+      <label for="data-nascimento">Data de Nascimento</label>
+      <input
+        type="date"
+        name="data-nascimento"
+        min="1962-01-01"
+        max="2004-12-31"
+      />
+      <span class="error">Data de Nascimento inválida.</span>
+      <label for="quantidade">Quantidade:</label>
+      <input name="amount" type="number" min="3" max="10" />
+      <span class="error">Quantidade inválida.</span>
+      <label>
+        <input type="checkbox" required />
+        <span>Li e aceito os termos de uso</span>
+      </label>
+
+      <button type="submit">Comprar</button>
+    </form>
+  </body>
+</html>

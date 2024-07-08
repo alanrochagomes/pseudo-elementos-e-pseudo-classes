@@ -1,0 +1,81 @@
+body {
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+input[type="checkbox"]:checkbox + label {
+  text-decoration: line-through;
+}
+
+form label,
+form button {
+  display: block;
+  margin-top: 12px;
+}
+
+input {
+  padding: 4px 14px;
+  margin-top: 8px;
+}
+
+form {
+  border: 1px solid grey;
+  border-radius: 4px;
+  width: 300px;
+  padding: 40px;
+  margin: auto;
+  background-color: rgb(247, 247, 247);
+}
+
+form h3 {
+  margin: 0;
+}
+
+input:in-range,
+input:valid {
+  border: 1px solid green;
+  color: green;
+}
+
+input:out-of-range,
+input:invalid {
+  border: 1px solid orangered;
+  color: orangered;
+}
+
+.error {
+  color: orangered;
+  font-size: 0.75rem;
+  display: none;
+}
+
+input:invalid + .error {
+  display: block;
+}
+
+/*
+input:in-range {
+  background-color: palegreen;
+}
+
+input:out-of-range {
+  background-color: orangered;
+  color: white;
+}
+*/
+
+/*
+input:valid {
+  border: 1px solid green;
+  color: green;
+}
+
+input:invalid {
+  border: 1px solid red;
+  color: red;
+}
+
+input:invalid + span {
+  color: red;
+}
+*/
